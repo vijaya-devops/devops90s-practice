@@ -2,6 +2,7 @@
 
 person1=$1
 person2=$2
+person3=$3
 
 echo "$person1: hey iran "
 echo "$person2: hi USA we are ready"
