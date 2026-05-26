@@ -1,5 +1,9 @@
 #!/bin/bash
 
-echo "trumph: hey iran "
-echo "Iran: hi USA we are ready"
-echo "Israel : hi trumph please make peace on countries"
+person1=trumph
+person2=iran
+person3=israel
+echo "$person1: hey iran "
+echo "$person2: hi USA we are ready"
+echo "$person3 : hi trumph please make peace on countries"
+echo "$person1: hi we are in discussion with $person2
