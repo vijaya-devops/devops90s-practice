@@ -13,4 +13,4 @@ echo "PId of background running waiting: $!"
 wait $!
 echo "Line number: $LINENO"
 fyhossh
-echo "Previous code command: $?"
+echo "eixt code of Previous code command: $?"
