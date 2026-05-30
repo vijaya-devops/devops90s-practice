@@ -10,7 +10,7 @@ NUMBER=$1
 #eq equal
 #ne not eqal
 
-if [ $NUMBER  -ge 10 ]; then
+if [ $NUMBER -ge 10 ]; then
 echo "given number $NUMBER gerater than 10"
   else 
   echo "given number $NUMBER less than 10"
