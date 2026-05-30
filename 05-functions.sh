@@ -6,5 +6,5 @@ validate() {
     echo "shell fucnctions"
 }
 
-if[$? -eq 0]; then
+if [$? -eq 0]; then
  validate $?
