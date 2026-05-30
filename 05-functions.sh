@@ -8,3 +8,4 @@ validate() {
 
 if [$? -eq 0]; then
  validate $?
+ fi
