@@ -2,8 +2,9 @@
 
 echo "functions"
 
-validate () {
+validate() {
     echo "shell fucnctions"
 }
 
-echo validate()
+if($? -eq 0); then
+ validate $?
