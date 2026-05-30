@@ -7,4 +7,10 @@ exit 1
 fi
 #echo "I am continuing"
 echo "Installing mysql"
-dnf install mysqldferew -y
+dnf install mysql -y
+if [$? -ne 0]; then
+echo "mysql install failed"
+ eixt 1
+ else 
+ echo "Installing mysql"
+ fi
