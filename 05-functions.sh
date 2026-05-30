@@ -5,3 +5,5 @@ echo "functions"
 validate () {
     echo "shell fucnctions"
 }
+
+echo validate()
